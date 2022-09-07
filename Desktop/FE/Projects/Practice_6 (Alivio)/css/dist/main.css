@@ -1,0 +1,138 @@
+body {
+  font-family: "lato";
+  width: 100%;
+}
+
+.wrapper {
+  width: 1375px;
+}
+
+.h1 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 74px;
+  color: #01996D;
+}
+
+.h2 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996D;
+}
+
+.h3 {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+  text-align: center;
+  color: #000000;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 172px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: lato, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #292929;
+  background-color: #fff;
+}
+
+.header__left {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.header__menu ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__right {
+  display: grid;
+}
+
+.header__right button {
+  width: 183px;
+  height: 51px;
+  background: #01996D;
+  color: #FFF;
+  border: 1px solid #01996D;
+  border-radius: 4px;
+}
+
+.slide {
+  display: grid;
+  margin-bottom: 170px;
+}
+
+.slide__text-box {
+  position: absolute;
+  width: 440px;
+  height: 384px;
+  left: 275px;
+  top: 261px;
+}
+
+.slide button {
+  width: 227px;
+  height: 65px;
+  background: #01996D;
+  color: #FFF;
+  border: 1px solid #01996D;
+  border-radius: 4px;
+}
+
+.slide__title {
+  margin-bottom: 30px;
+}
+
+.slide__text {
+  margin-bottom: 18px;
+}
+
+.works {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  margin-bottom: 150px;
+}
+
+.works__left {
+  position: absolute;
+  width: 440px;
+  height: 384px;
+}
+
+.works__right {
+  position: absolute;
+  width: 671px;
+  height: 269px;
+}
+
+.story {
+  position: absolute;
+  width: 1920px;
+  height: 922px;
+  left: 0px;
+  top: 2587px;
+  background: #245852;
+}
+
+/*# sourceMappingURL=main.css.map */
+
+/*# sourceMappingURL=main.css.map */

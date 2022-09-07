@@ -1,0 +1,1 @@
+{"version":3,"sources":["cards.scss"],"names":[],"mappings":"AAAA,OACE,QAAS,KACT,SAAU,SACV,cAAe","file":"cards.min.css","sourcesContent":[".cards {\r\n    display: grid;\r\n    position: relative;\r\n    margin-bottom: 150px;\r\n}"]}

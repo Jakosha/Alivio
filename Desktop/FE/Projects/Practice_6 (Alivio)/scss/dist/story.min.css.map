@@ -1,0 +1,1 @@
+{"version":3,"sources":["story.scss"],"names":[],"mappings":"AAAA,OACE,SAAU,SACV,MAAO,OACP,OAAQ,MACR,WAAY","file":"story.min.css","sourcesContent":[".story {\r\n\r\nposition: relative;\r\nwidth: 1920px;\r\nheight: 922px;\r\nbackground: #245852;\r\n}"]}

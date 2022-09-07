@@ -1,0 +1,21 @@
+.works {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  margin-bottom: 150px;
+}
+
+.works__left {
+  position: absolute;
+  width: 440px;
+  height: 384px;
+}
+
+.works__right {
+  position: absolute;
+  width: 671px;
+  height: 269px;
+}
+
+/*# sourceMappingURL=works.css.map */

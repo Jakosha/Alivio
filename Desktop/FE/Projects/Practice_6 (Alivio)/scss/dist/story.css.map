@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["story.scss"],"sourcesContent":[".story {\r\n\r\nposition: relative;\r\nwidth: 1920px;\r\nheight: 922px;\r\nbackground: #245852;\r\n}"],"file":"story.css"}
