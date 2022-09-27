@@ -7,7 +7,6 @@
   position: absolute;
   width: 440px;
   height: 384px;
-  left: 275px;
   top: 261px;
 }
 
@@ -21,11 +20,11 @@
 }
 
 .slide__title {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .slide__text {
-  margin-bottom: 18px;
+  margin-bottom: 56px;
 }
 
 /*# sourceMappingURL=slide.css.map */

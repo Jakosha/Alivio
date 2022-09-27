@@ -1,0 +1,23 @@
+.story {
+  position: relative;
+  width: 1920px;
+  height: 922px;
+  background: #245852;
+}
+
+.story__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story__title {
+  color: #FFFFFF;
+}
+
+.story__text {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=_story.css.map */

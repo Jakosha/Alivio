@@ -1,0 +1,12 @@
+.product {
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__right {
+        width: 584px;
+        height: 413px;
+    }
+}

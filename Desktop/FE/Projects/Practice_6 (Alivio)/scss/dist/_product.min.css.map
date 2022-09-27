@@ -1,0 +1,1 @@
+{"version":3,"sources":["_product.scss"],"names":[],"mappings":"AAAA,kBACE,QAAS,KACT,gBAAiB,cAGnB,gBACE,MAAO,MACP,OAAQ","file":"_product.min.css","sourcesContent":[".product {\r\n\r\n    &__wrapper {\r\n        display: flex;\r\n        justify-content: space-between;\r\n    }\r\n\r\n    &__right {\r\n        width: 584px;\r\n        height: 413px;\r\n    }\r\n}"]}

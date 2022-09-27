@@ -1,9 +1,4 @@
 .header {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 172px;
-  align-items: center;
-  justify-content: space-between;
   font-family: lato, sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -12,21 +7,28 @@
   background-color: #fff;
 }
 
-.header__left {
-  display: grid;
-  align-content: center;
-  justify-content: center;
-}
-
-.header__menu ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  align-items: center;
+.header__wrapper {
+  display: flex;
   justify-content: space-between;
 }
 
-.header__right {
-  display: grid;
+.header__left {
+  display: flex;
+  justify-content: left;
+  width: 260px;
+}
+
+.header__menu ul, .header__right {
+  display: flex;
+  width: auto;
+}
+
+.header__menu ul {
+  justify-content: space-between;
+}
+
+.header__menu ul li {
+  margin-left: 70px;
 }
 
 .header__right button {

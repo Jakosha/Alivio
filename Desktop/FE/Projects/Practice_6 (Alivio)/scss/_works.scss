@@ -1,0 +1,19 @@
+.works {
+    
+    position: relative;
+    margin-bottom: 150px; 
+    font-family: "Lato-Medium";   
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+}
+    &__left {
+        width: 584px;
+        height: 158px;
+    }
+    &__right {
+        width: 667px;
+        height: 135px;
+    }
+}

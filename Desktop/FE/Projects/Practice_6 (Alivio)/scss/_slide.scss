@@ -1,0 +1,22 @@
+.slide {
+    display: grid;
+    margin-bottom: 170px;
+    font-family: "Lato-Regular"; 
+
+&__text-box {
+    position: absolute;
+    width: 440px;
+    height: 384px;    
+    top: 261px;
+}
+
+
+&__title {
+    margin-bottom: 35px;
+}
+
+&__text {
+    margin-bottom: 56px; 
+    width: 400px; 
+}
+}

@@ -1,0 +1,14 @@
+.cards {
+    display: grid;
+    position: relative;
+    margin-bottom: 150px;
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 90px;
+        margin-top: 145px;       
+        
+    }
+}
+

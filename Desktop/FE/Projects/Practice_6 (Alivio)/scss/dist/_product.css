@@ -1,0 +1,11 @@
+.product__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product__right {
+  width: 584px;
+  height: 413px;
+}
+
+/*# sourceMappingURL=_product.css.map */
