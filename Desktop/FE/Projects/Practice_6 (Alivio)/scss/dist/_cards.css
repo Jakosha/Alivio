@@ -4,11 +4,40 @@
   margin-bottom: 150px;
 }
 
-.cards__wrapper {
+.cards__items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 90px;
-  margin-top: 145px;
+}
+
+.cards .card__text {
+  font-family: 'Lato-Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.cards .card__image {
+  padding-top: 50px;
+}
+
+.cards .card__number {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+}
+
+.cards .card__number:before {
+  counter-increment: number-counter;
+  content: counter(number-counter);
+  position: absolute;
+  font-size: 280px;
+  line-height: 201px;
+  color: #F2F2F2;
+  top: 0;
+  right: 0;
 }
 
 /*# sourceMappingURL=_cards.css.map */

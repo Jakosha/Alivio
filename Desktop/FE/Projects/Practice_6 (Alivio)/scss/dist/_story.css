@@ -1,13 +1,18 @@
 .story {
   position: relative;
-  width: 1920px;
   height: 922px;
   background: #245852;
 }
 
 .story__wrapper {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-gap: 70px;
+  padding-top: 220px;
+}
+
+.story__left {
+  margin: auto;
 }
 
 .story__title {

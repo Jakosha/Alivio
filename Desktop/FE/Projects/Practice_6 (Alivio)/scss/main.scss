@@ -64,7 +64,7 @@ body {
     // адрес шрифта и тип 
     src: url("../fonts/Lato-Regular.ttf") format("truetype"); 
     font-style: normal; 
-    font-weight: normal; 
+    font-weight: 400; 
     } 
 
   @font-face {
@@ -73,7 +73,7 @@ body {
     // адрес шрифта и тип 
     src: url("../fonts/Lato-Medium.ttf") format("truetype"); 
     font-style: normal; 
-    font-weight: normal; 
+    font-weight: 500; 
     }
 
   @font-face {
@@ -82,7 +82,7 @@ body {
     // адрес шрифта и тип 
     src: url("../fonts/Lato-SemiBold.ttf") format("truetype"); 
     font-style: normal; 
-    font-weight: normal; 
+    font-weight: 600; 
     } 
 
 
@@ -92,5 +92,6 @@ body {
   @import "cards";
   @import "story";
   @import "product";
+  @import "footer";
   
 

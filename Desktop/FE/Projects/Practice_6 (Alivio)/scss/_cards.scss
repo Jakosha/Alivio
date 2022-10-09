@@ -1,14 +1,47 @@
 .cards {
     display: grid;
     position: relative;
-    margin-bottom: 150px;
-
-    &__wrapper {
+    margin-bottom: 150px;  
+        
+    
+    &__items {        
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 90px;
-        margin-top: 145px;       
         
+        
+    }    
+    .card {
+    &__text {
+        font-family: 'Lato-Medium';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;        
+
     }
+
+    &__image {
+        padding-top: 50px;
+    }
+
+    &__number {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+    }
+    
+    &__number:before {
+        counter-increment: number-counter;
+        content: counter(number-counter);
+        position: absolute;
+        font-size: 280px;
+        line-height: 201px;
+        color: #F2F2F2;
+        top: 0;
+        right: 0;
+    }
+}
 }
 

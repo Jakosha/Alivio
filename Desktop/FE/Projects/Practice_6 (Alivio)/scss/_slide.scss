@@ -2,13 +2,15 @@
     display: grid;
     margin-bottom: 170px;
     font-family: "Lato-Regular"; 
+    background-image: url(../img/Slide.png);
+    background-size: cover;
+    height: calc(100vh - 51px);
+    
 
 &__text-box {
-    position: absolute;
+    position: relative;
     width: 440px;
-    height: 384px;    
-    top: 261px;
-}
+    }
 
 
 &__title {
@@ -19,4 +21,5 @@
     margin-bottom: 56px; 
     width: 400px; 
 }
+
 }

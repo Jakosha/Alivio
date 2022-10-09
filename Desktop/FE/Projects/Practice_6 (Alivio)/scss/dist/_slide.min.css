@@ -1,2 +1,2 @@
-.slide{display:grid;margin-bottom:170px;font-family:Lato-Regular}.slide__text-box{position:absolute;width:440px;height:384px;top:261px}.slide__title{margin-bottom:35px}.slide__text{margin-bottom:56px;width:400px}
+.slide{display:grid;margin-bottom:170px;font-family:Lato-Regular;background-image:url(../img/Slide.png);background-size:cover;height:calc(100vh - 51px)}.slide__text-box{position:relative;width:440px}.slide__title{margin-bottom:35px}.slide__text{margin-bottom:56px;width:400px}
 /*# sourceMappingURL=_slide.min.css.map */

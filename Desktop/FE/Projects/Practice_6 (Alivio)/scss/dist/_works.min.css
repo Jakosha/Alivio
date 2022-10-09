@@ -1,2 +1,2 @@
-.works{position:relative;margin-bottom:150px;font-family:Lato-Medium}.works__wrapper{display:flex;justify-content:space-between}.works__left{width:584px;height:158px}.works__right{width:667px;height:135px}
+.works{position:relative;margin-bottom:150px;font-family:Lato-Medium}.works__wrapper{display:grid;grid-template-columns:1fr 1fr;grid-gap:50px}.works__left{padding-right:35px}.works__right{margin-top:58px}
 /*# sourceMappingURL=_works.min.css.map */

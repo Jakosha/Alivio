@@ -2,13 +2,14 @@
   display: grid;
   margin-bottom: 170px;
   font-family: "Lato-Regular";
+  background-image: url(../img/Slide.png);
+  background-size: cover;
+  height: calc(100vh - 51px);
 }
 
 .slide__text-box {
-  position: absolute;
+  position: relative;
   width: 440px;
-  height: 384px;
-  top: 261px;
 }
 
 .slide__title {
